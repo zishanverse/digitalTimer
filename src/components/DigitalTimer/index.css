@@ -1,0 +1,137 @@
+.Container {
+  background-image: linear-gradient(to right, #fff, #cffcf1, #cffcf1, #defafe);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 370px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 110px;
+  width: 110px;
+  border-radius: 100px;
+  margin-left: 25px;
+}
+.time {
+  color: #6ae4cc;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.status {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.btnCard {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.btnImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  height: 23px;
+  width: 23px;
+  margin-right: 7px;
+  border: 0px;
+  background-color: transparent;
+}
+.img {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.startBtn {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 17px;
+}
+.setTime {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.setting {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13px;
+  height: 15px;
+  padding: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  border: 0px;
+  background-color: transparent;
+}
+.timeCard {
+  background-image: linear-gradient(to right, #0cf397, #0cf3eb);
+  width: 55px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  margin: 15px;
+}
+.minutesSet {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .flex {
+    flex-direction: column;
+  }
+}
