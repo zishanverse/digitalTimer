@@ -122,7 +122,7 @@ class DigitalTimer extends Component {
               <button
                 type="button"
                 className="btn"
-                onClick={reset && this.minus}
+                onClick={reset === true ? this.minus : undefined}
               >
                 -
               </button>
@@ -133,7 +133,7 @@ class DigitalTimer extends Component {
               <button
                 type="button"
                 className="btn"
-                onClick={reset && this.plus}
+                onClick={reset === true ? this.plus : undefined}
               >
                 +
               </button>
